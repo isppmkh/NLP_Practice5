@@ -1,0 +1,5 @@
+nltk
+scikit-learn
+gensim
+numpy==2.2.6
+tensorflow-cpu
