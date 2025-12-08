@@ -23,11 +23,8 @@ def main():
     analysis = analyze_pos(generated_text)
 
     print('POS Analysis:')
-    # if analysis['nouns']:
     print(f'Nouns: {", ".join(analysis['nouns'])}')
-    # if analysis['verbs']:
     print(f'Verbs: {", ".join(analysis['verbs'])}')
-    # if analysis['adjectives']:
     print(f'Adjectives: {", ".join(analysis['adjectives'])}')
 
 
