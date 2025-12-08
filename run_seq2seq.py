@@ -24,11 +24,11 @@ def main():
 
     print('POS Analysis:')
     # if analysis['nouns']:
-    print(f'Nouns: {', '.join(analysis['nouns'])}')
+    print(f'Nouns: {", ".join(analysis['nouns'])}')
     # if analysis['verbs']:
-    print(f'Verbs: {', '.join(analysis['verbs'])}')
+    print(f'Verbs: {", ".join(analysis['verbs'])}')
     # if analysis['adjectives']:
-    print(f'Adjectives: {', '.join(analysis['adjectives'])}')
+    print(f'Adjectives: {", ".join(analysis['adjectives'])}')
 
 
 if __name__ == '__main__':
