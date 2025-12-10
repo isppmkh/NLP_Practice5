@@ -23,9 +23,12 @@ def main():
     analysis = analyze_pos(generated_text)
 
     print('POS Analysis:')
-    print(f'Nouns: {", ".join(analysis['nouns'])}')
-    print(f'Verbs: {", ".join(analysis['verbs'])}')
-    print(f'Adjectives: {", ".join(analysis['adjectives'])}')
+    nouns = ', '.join(analysis['nouns'])
+    verbs = ', '.join(analysis['verbs'])
+    adjectives = ', '.join(analysis['adjectives'])
+    print(f'Nouns: {nouns}')
+    print(f'Verbs: {verbs}')
+    print(f'Adjectives: {adjectives}')
 
 
 if __name__ == '__main__':
